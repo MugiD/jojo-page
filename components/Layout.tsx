@@ -9,7 +9,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>JoJo Reference Playlist</title>
       </Head>
-      <Container maxW="container.md">
+      <Container maxW="container.md" color="white">
         {children}
       <Footer />
       </Container>
