@@ -4,7 +4,6 @@ import {
   Container,
   Stack,
   Text,
-  useColorModeValue,
   VisuallyHidden,
 } from "@chakra-ui/react";
 import { FaInstagram, FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
@@ -52,7 +51,7 @@ export default function Footer() {
         justify={{ base: "center", md: "space-between" }}
         align={{ base: "center", md: "center" }}
       >
-        <Text>&copy; 2022 Bek Slambek (MugiD). All rights reserved</Text>
+        <Text textAlign="center">&copy; 2022 Bek Slambek (MugiD). All rights reserved</Text>
         <Stack direction="row" spacing={6}>
           <SocialButton label="Twitter" href="https://twitter.com/sbek22_">
             <FaTwitter />
