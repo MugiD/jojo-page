@@ -12,7 +12,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <link rel="shortcut icon" href="/jojo.jpg" type="image/x-icon" />
         <meta
           property="description"
-          content="JoJo Reference Playlist is the only playlist you ever need. View some examples of tracks in the Landing Page of this music collection"
+          content="JoJo Reference Playlist is the only playlist you ever need. View example of some tracks in the Landing Page of this music collection"
         />
         <meta property="og:image" content="https://jojo-page.vercel.app/card.png" />
         <meta property="og:title" content="JoJo Reference Playlist" />
@@ -21,7 +21,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           content="JoJo Reference Playlist is the only playlist you ever need. View example of some tracks in the Landing Page of this music collection"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://jojo.dosek.xyz/" />
         <meta name="twitter:title" content="JoJo Reference Playlist" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@sbek22_" />
