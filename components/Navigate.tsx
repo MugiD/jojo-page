@@ -37,7 +37,8 @@ const Navigate = () => {
             bgClip="text"
             fontWeight="black"
             mb={6}
-            mx="auto"
+            mx={{base: "auto", md: 0}}
+            textAlign="right"
           >
             Navigation
           </Heading>
