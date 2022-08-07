@@ -18,7 +18,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <meta property="og:title" content="JoJo Reference Playlist" />
         <meta
           property="og:description"
-          content="JoJo Reference Playlist is the only playlist you ever need. View some examples of tracks in the Landing Page of this music collection"
+          content="JoJo Reference Playlist is the only playlist you ever need. View example of some tracks in the Landing Page of this music collection"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://jojo.dosek.xyz/" />
