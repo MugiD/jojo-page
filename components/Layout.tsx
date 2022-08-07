@@ -14,7 +14,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           property="description"
           content="JoJo Reference Playlist is the only playlist you ever need. View example of some tracks in the Landing Page of this music collection"
         />
-        <meta property="og:image" content="https://jojo-page.vercel.app/card.png" />
+        <meta property="og:image" content="https://jojo.dosek.xyz/card.png" />
         <meta property="og:title" content="JoJo Reference Playlist" />
         <meta
           property="og:description"
@@ -26,7 +26,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <meta name="twitter:creator" content="@sbek22_" />
         <meta
           name="twitter:image"
-          content="https://jojo-page.vercel.app/card.png"
+          content="https://jojo.dosek.xyz/card.png"
         />
       </Head>
       <Container maxW="container.md" color="white">
