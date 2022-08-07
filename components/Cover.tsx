@@ -35,11 +35,17 @@ const Cover = () => {
           <Text fontSize={14} my={6} fontWeight="bold">
             @sb22ek | 352 tracks | 27h. 11min
           </Text>
-          <Button borderRadius="full" bg="spoti" fontSize={20} py={4}>
-            <a href="https://open.spotify.com/playlist/3f4If4rUbBwHACmNVIet1A?si=b14639d627b84077">
+          <a href="https://open.spotify.com/playlist/3f4If4rUbBwHACmNVIet1A?si=b14639d627b84077">
+            <Button
+              borderRadius="full"
+              bg="spoti"
+              fontSize={20}
+              p={6}
+              fontWeight="extrabold"
+            >
               Open in Spotify
-            </a>
-          </Button>
+            </Button>
+          </a>
         </Box>
       </Box>
     </Box>
